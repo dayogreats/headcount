@@ -3,8 +3,8 @@ require 'bigdecimal'
 class District
   attr_reader :name
 
-  def initialize(name)
-    @name = name[:name]
+  def initialize(name:)
+    @name = name
 
   end
 
